@@ -1,0 +1,49 @@
+header .logo img {
+  width: 200px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 30px;
+  background-color: #1f2641;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 600px;
+  justify-content: space-around;
+}
+
+header nav a {
+  font-size: 20px;
+  color: white;
+}
+
+header button {
+  background-color: #10cb6c;
+  border-radius: 8px;
+  padding: 20px;
+  border: none;
+  color: white;
+  font-size: 17px;
+}

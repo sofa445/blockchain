@@ -1,0 +1,43 @@
+#about {
+  display: flex;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+#about h4 {
+  opacity: 0.5;
+}
+
+#about h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#about h1 span {
+  font-weight: 300;
+  display: block;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+#about li {
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 30px;
+  list-style: inside;
+}
+
+#about > img {
+    object-fit: contain;
+    flex: 1;
+    animation: moving 0.3s infinite alternative;
+}

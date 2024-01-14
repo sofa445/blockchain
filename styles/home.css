@@ -1,0 +1,56 @@
+#home {
+  display: flex;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+#home h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#home span {
+  font-weight: 300;
+  display: block;
+}
+
+#home p {
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+#home > img {
+  object-fit: contain;
+  flex: 1;
+  animation: moving 3s infinite alternate;
+}
+
+@keyframes moving {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes moving2 {
+  25% {
+    transform: translateX(10px) translateY(0px);
+  }
+  50% {
+    transform: translateX(10px) translateY(10px);
+  }
+  75% {
+    transform: translateX(0px) translateY(10px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}

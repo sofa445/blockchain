@@ -1,0 +1,48 @@
+@media screen and (max-width: 1200px) {
+  #home,
+  #about {
+    margin-top: 0;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header nav {
+    display: none;
+  }
+  #home,
+  #about {
+    flex-direction: column;
+  }
+
+  #home > *,
+  #about > * {
+    width: 100%;
+  }
+
+  #home img {
+    display: none;
+  }
+
+  #about li {
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  header {
+    flex-direction: column;
+  }
+
+  header .logo {
+    margin-bottom: 20px;
+  }
+
+  #service .block {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+    line-height: 30px;
+  }
+}
